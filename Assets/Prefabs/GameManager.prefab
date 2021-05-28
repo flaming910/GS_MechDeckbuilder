@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1107378331503505148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107378331503505151}
+  - component: {fileID: 1107378331503505150}
+  - component: {fileID: 1107378331503505149}
+  - component: {fileID: 5019658410899095237}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107378331503505151
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107378331503505148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107378331503505150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107378331503505148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d23c3d364938343b70512ef3cf0fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCardList: {fileID: 11400000, guid: 1f3c77b7b1dc4d24ca7b7e5d1b7d08b7, type: 2}
+  commonEnemyCardList: {fileID: 11400000, guid: 052a961ffcf8e7a43b97d1a192600249, type: 2}
+--- !u!114 &1107378331503505149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107378331503505148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a713cc3045e90a4489ace4c32fee6c91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5019658410899095237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107378331503505148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac8666c2d5b2cb84d9bae7753058ae06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardPrefab: {fileID: 6014149229463757893, guid: 0c050c8385aada14aa46b9d10d79042c, type: 3}
+  healthBarPrefab: {fileID: 1352434388781954836, guid: 8a5d965f768ac4e47a819de2fccf5435, type: 3}
+  rewardPreviewPrefab: {fileID: 741339156351180984, guid: 7fc8b4d707a0ff64cb0b9e6425efbe4f, type: 3}
+  mapCanvas: {fileID: 0}
+  fightCanvas: {fileID: 0}
+  rewardsCanvas: {fileID: 0}
+  menuCanvas: {fileID: 0}
+  rewardsPreview: {fileID: 0}
+  currentCanvas: {fileID: 0}
+  playerHand: {fileID: 0}
+  playerHealthBars: {fileID: 0}
+  playerEnergyText: {fileID: 0}
+  enemyHand: {fileID: 0}
+  enemyHealthBars: {fileID: 0}

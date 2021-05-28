@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48334da9c27be24ca25850f576b1135, type: 3}
+  m_Name: CommonEnemyCards
+  m_EditorClassIdentifier: 
+  cards:
+  - cardName: Arm Cannon
+    cardArt: {fileID: 21300000, guid: 0f90662a7ee454d429d28a35fd70bf59, type: 3}
+    rarity: 0
+    cardDesc: Deal 2 damage to player head
+    cost: 1
+    cardEvents:
+    - func: 0
+      value: 2
+      targetType: 0
+    sourcePart: 2
+  - cardName: Arm Cannon
+    cardArt: {fileID: 21300000, guid: 0f90662a7ee454d429d28a35fd70bf59, type: 3}
+    rarity: 0
+    cardDesc: Deal 2 damage to player head
+    cost: 1
+    cardEvents:
+    - func: 0
+      value: 2
+      targetType: 0
+    sourcePart: 3
+  - cardName: Flying Kick
+    cardArt: {fileID: 21300000, guid: 10f40f060b508cf46b2a99e6f7397511, type: 3}
+    rarity: 0
+    cardDesc: Deal 4 damage to player torso
+    cost: 2
+    cardEvents:
+    - func: 0
+      value: 4
+      targetType: 1
+    sourcePart: 4
+  - cardName: Flying Kick
+    cardArt: {fileID: 21300000, guid: 10f40f060b508cf46b2a99e6f7397511, type: 3}
+    rarity: 0
+    cardDesc: Deal 4 damage to player torso
+    cost: 2
+    cardEvents:
+    - func: 0
+      value: 4
+      targetType: 1
+    sourcePart: 5
+  - cardName: Full Repair
+    cardArt: {fileID: 21300000, guid: 8cc0a9d2748f2944f8cb98da4394ab2b, type: 3}
+    rarity: 0
+    cardDesc: Heal every part by 1
+    cost: 3
+    cardEvents:
+    - func: 1
+      value: 1
+      targetType: 6
+    - func: 1
+      value: 1
+      targetType: 7
+    - func: 1
+      value: 1
+      targetType: 8
+    - func: 1
+      value: 1
+      targetType: 9
+    - func: 1
+      value: 1
+      targetType: 10
+    - func: 1
+      value: 1
+      targetType: 11
+    sourcePart: 0
+  - cardName: Full Repair
+    cardArt: {fileID: 21300000, guid: 8cc0a9d2748f2944f8cb98da4394ab2b, type: 3}
+    rarity: 0
+    cardDesc: Heal every part by 1
+    cost: 3
+    cardEvents:
+    - func: 1
+      value: 1
+      targetType: 6
+    - func: 1
+      value: 1
+      targetType: 7
+    - func: 1
+      value: 1
+      targetType: 8
+    - func: 1
+      value: 1
+      targetType: 9
+    - func: 1
+      value: 1
+      targetType: 10
+    - func: 1
+      value: 1
+      targetType: 11
+    sourcePart: 0
+  - cardName: Leg Blast
+    cardArt: {fileID: 21300000, guid: 10f40f060b508cf46b2a99e6f7397511, type: 3}
+    rarity: 0
+    cardDesc: Damage both legs for 1 each
+    cost: 1
+    cardEvents:
+    - func: 0
+      value: 1
+      targetType: 4
+    - func: 0
+      value: 1
+      targetType: 5
+    sourcePart: 4
+  - cardName: Leg Blast
+    cardArt: {fileID: 21300000, guid: 10f40f060b508cf46b2a99e6f7397511, type: 3}
+    rarity: 0
+    cardDesc: Damage both legs for 1 each
+    cost: 1
+    cardEvents:
+    - func: 0
+      value: 1
+      targetType: 4
+    - func: 0
+      value: 1
+      targetType: 5
+    sourcePart: 5
+  - cardName: Explosive Wave
+    cardArt: {fileID: 21300000, guid: 0f90662a7ee454d429d28a35fd70bf59, type: 3}
+    rarity: 0
+    cardDesc: Do 1 damage to all body parts except core
+    cost: 3
+    cardEvents:
+    - func: 0
+      value: 1
+      targetType: 4
+    - func: 0
+      value: 1
+      targetType: 5
+    - func: 0
+      value: 1
+      targetType: 3
+    - func: 0
+      value: 1
+      targetType: 2
+    - func: 0
+      value: 1
+      targetType: 1
+    - func: 0
+      value: 1
+      targetType: 0
+    sourcePart: 2
+  - cardName: Explosive Wave
+    cardArt: {fileID: 21300000, guid: 0f90662a7ee454d429d28a35fd70bf59, type: 3}
+    rarity: 0
+    cardDesc: Do 1 damage to all body parts except core
+    cost: 3
+    cardEvents:
+    - func: 0
+      value: 1
+      targetType: 4
+    - func: 0
+      value: 1
+      targetType: 5
+    - func: 0
+      value: 1
+      targetType: 3
+    - func: 0
+      value: 1
+      targetType: 2
+    - func: 0
+      value: 1
+      targetType: 1
+    - func: 0
+      value: 1
+      targetType: 0
+    sourcePart: 3
+  isPlayerCards: 0
